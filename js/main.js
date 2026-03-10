@@ -242,18 +242,36 @@ function initParticles() {
       }
     }
 
-    // Dots
-    particles.forEach(p => {
-      ctx.beginPath();
-      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(168,85,247,${p.a})`;
-      ctx.fill();
+      // Gentle mouse interaction
+      const mouse = { x: null, y: null };
+      window.addEventListener("mousemove", (e) => {
+        const rect = canvas.getBoundingClientRect();
+        mouse.x = e.clientX - rect.left;
+        mouse.y = e.clientY - rect.top;
+      });
 
-      p.x += p.vx;
-      p.y += p.vy;
-      if (p.x < 0 || p.x > canvas.width)  p.vx *= -1;
-      if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
-    });
+      particles.forEach(p => {
+        // Simple attraction/repulsion
+        if (mouse.x !== null) {
+          const dx = mouse.x - p.x;
+          const dy = mouse.y - p.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 100) {
+            p.x -= dx * 0.01;
+            p.y -= dy * 0.01;
+          }
+        }
+
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(168,85,247,${p.a})`;
+        ctx.fill();
+
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.x < 0 || p.x > canvas.width)  p.vx *= -1;
+        if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+      });
 
     requestAnimationFrame(draw);
   }
@@ -360,6 +378,27 @@ function initNav() {
       l.classList.toggle("nav-link--active", l.getAttribute("href") === "#" + cur);
     });
   });
+
+  // Copy email to clipboard enhancement
+  const emailLink = document.querySelector('a[href^="mailto:"]');
+  if (emailLink) {
+    emailLink.addEventListener('click', (e) => {
+      const email = emailLink.textContent.trim();
+      if (email.includes('@')) {
+        // We still allow the default mailto behavior, 
+        // but we copy it too and show a subtle hint.
+        navigator.clipboard.writeText(email).then(() => {
+          const originalText = emailLink.textContent;
+          emailLink.textContent = "¡Copiado!";
+          emailLink.style.color = "var(--green)";
+          setTimeout(() => {
+            emailLink.textContent = originalText;
+            emailLink.style.color = "";
+          }, 2000);
+        });
+      }
+    });
+  }
 }
 
 // ─────────────────────────────────────────────
