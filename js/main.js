@@ -63,7 +63,7 @@ const PROJECTS = [
              <line x1="3" y1="18" x2="3.01" y2="18"/>
            </svg>`,
     color: "#00d4aa",
-    status: "wip",
+    status: "live",
     featured: false,
     tech: [
       { name: "HTML5",      color: "#e34f26" },
@@ -77,8 +77,8 @@ const PROJECTS = [
       "Reportes y estadísticas visuales",
       "Panel multi-usuario con roles y permisos",
     ],
-    demoUrl: null,
-    adminUrl: null,
+    demoUrl: "https://moisesx04.github.io/sistema-de-inventario/",
+    adminUrl: "https://moisesx04.github.io/sistema-de-inventario/",
     mainLang: "JavaScript + Firebase",
   },
 
