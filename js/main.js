@@ -13,9 +13,9 @@ const PROJECTS = [
     title: "PureForm",
     subtitle: "Sistema de Gestión de Formularios",
     description:
-      "Plataforma completa para crear, distribuir y gestionar formularios personalizados. " +
-      "Incluye panel administrativo con estadísticas en tiempo real, constructor drag-and-drop, " +
-      "formulario DS-160 para visa americana, gestión de clientes con links únicos y exportación CSV.",
+      "Una herramienta fácil de usar para crear y organizar formularios personalizados. " +
+      "Permite ver resultados en tiempo real con gráficas, organizar clientes y " +
+      "guardar toda la información de forma segura.",
     icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
              <rect x="3" y="3" width="18" height="18" rx="3"/>
@@ -52,9 +52,9 @@ const PROJECTS = [
     title: "Sistema de Inventario",
     subtitle: "Control y Gestión de Productos",
     description:
-      "Sistema robusto para la gestión de inventario empresarial. Controla stock, " +
-      "movimientos de productos, proveedores, categorías y genera reportes " +
-      "detallados con estadísticas visuales para una administración eficiente.",
+      "Un programa diseñado para llevar el control de productos en un negocio. " +
+      "Ayuda a saber cuánto hay en inventario, organizar proveedores y " +
+      "ver reportes claros sobre el movimiento de la mercancía.",
     icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
              <line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/>
