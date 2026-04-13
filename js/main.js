@@ -82,22 +82,42 @@ const PROJECTS = [
     mainLang: "JavaScript + Firebase",
   },
 
-  // ── AÑADE MÁS PROYECTOS AQUÍ ──────────────────
-  // {
-  //   id: "mi-nuevo-sistema",
-  //   title: "Mi Nuevo Sistema",
-  //   subtitle: "Descripción corta",
-  //   description: "Descripción larga...",
-  //   icon: `<svg>...</svg>`,
-  //   color: "#ff6b6b",
-  //   status: "new",
-  //   featured: false,
-  //   tech: [{ name: "React", color: "#61dafb" }],
-  //   features: ["Feature 1", "Feature 2"],
-  //   demoUrl: "../mi-sistema/index.html",
-  //   adminUrl: null,
-  //   mainLang: "React + Node.js",
-  // },
+  {
+    id: "lavado-inteligente",
+    title: "Sistema de Lavado Inteligente",
+    subtitle: "Gestión Ejecutiva & Control de Nómina",
+    description:
+      "Una plataforma de alto rendimiento para la gestión de car wash. " +
+      "Automatiza el cálculo de pagos por comisiones, genera tickets para WhatsApp " +
+      "y ofrece visualización de datos en tiempo real para decisiones estratégicas.",
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+             <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-1.1 0-2 .9-2 2v4c0 .6.4 1 1 1h2"/>
+             <circle cx="7" cy="17" r="2"/>
+             <path d="M9 17h6"/>
+             <circle cx="17" cy="17" r="2"/>
+           </svg>`,
+    color: "#3b82f6",
+    status: "new",
+    featured: true,
+    tech: [
+      { name: "React",       color: "#61dafb" },
+      { name: "TypeScript",  color: "#3178c6" },
+      { name: "Vite",        color: "#646cff" },
+      { name: "Recharts",    color: "#00c9ff" },
+      { name: "Framer Motion", color: "#ff0055" },
+    ],
+    features: [
+      "Dashboard dinámico con gráficas Recharts",
+      "Liquidación automática de nómina por lavador",
+      "Generación de tickets PDF y envío a WhatsApp",
+      "Gestión de servicios con precios dinámicos",
+      "Interfaz ultra-minimalista y responsive",
+    ],
+    demoUrl: "https://moisesx04.github.io/sistema-de-lavado/",
+    adminUrl: "https://moisesx04.github.io/sistema-de-lavado/",
+    mainLang: "React + TS",
+  },
 ];
 
 // ─────────────────────────────────────────────
