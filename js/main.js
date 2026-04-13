@@ -48,6 +48,41 @@ const PROJECTS = [
     mainLang: "JavaScript + Firebase",
   },
   {
+    id: "gensy-crm",
+    title: "Gensy CRM",
+    subtitle: "Control CRM & Agenda Inmobiliaria",
+    description:
+      "Plataforma avanzada para la gestión de bienes raíces. " +
+      "Integra un sistema de captación de leads mediante formularios " +
+      "multi-paso dinámicos y un dashboard administrativo para el " +
+      "seguimiento exhaustivo de clientes y propiedades.",
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+             <polyline points="9 22 9 12 15 12 15 22"/>
+           </svg>`,
+    color: "#8b5cf6",
+    status: "live",
+    featured: true,
+    tech: [
+      { name: "React",       color: "#61dafb" },
+      { name: "TypeScript",  color: "#3178c6" },
+      { name: "Tailwind",    color: "#06b6d4" },
+      { name: "Vite",        color: "#646cff" },
+      { name: "Lucide",      color: "#ff0055" },
+    ],
+    features: [
+      "Formulario público inteligente de 5 pasos",
+      "Panel administrativo para G A FRIAS Real Estate",
+      "Gestión de documentos, finanzas y empleo",
+      "Dashboard con analíticas en tiempo real",
+      "Seguridad y confidencialidad de datos (100%)",
+    ],
+    demoUrl: "https://gensy-crm.vercel.app",
+    adminUrl: "https://gensy-crm.vercel.app/login",
+    mainLang: "React + TS",
+  },
+  {
     id: "inventario",
     title: "Sistema de Inventario",
     subtitle: "Control y Gestión de Productos",
@@ -117,6 +152,40 @@ const PROJECTS = [
     demoUrl: "https://sistema-de-lavado.vercel.app",
     adminUrl: "https://sistema-de-lavado.vercel.app",
     mainLang: "React + TS",
+  },
+  {
+    id: "farmasystem",
+    title: "FarmaSystem Pro",
+    subtitle: "Sistema de Facturación & POS Farmacéutico",
+    description:
+      "Plataforma profesional para la gestión de farmacias. " +
+      "Controla ventas, inventario, facturación con NCF y perfiles de usuario " +
+      "con un diseño premium orientado a la eficiencia operativa.",
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+             <path d="M10.5 22h3c.8 0 1.5-.7 1.5-1.5V15h5.5c.8 0 1.5-.7 1.5-1.5v-3c0-.8-.7-1.5-1.5-1.5H15V3.5c0-.8-.7-1.5-1.5-1.5h-3c-.8 0-1.5.7-1.5 1.5V9H3.5c-.8 0-1.5.7-1.5 1.5v3c0 .8.7 1.5 1.5 1.5H9v5.5c0 .8.7 1.5 1.5 1.5z"/>
+           </svg>`,
+    color: "#ef4444",
+    status: "live",
+    featured: true,
+    tech: [
+      { name: "Next.js",     color: "#000000" },
+      { name: "TypeScript",  color: "#3178c6" },
+      { name: "Supabase",    color: "#3ecf8e" },
+      { name: "Tailwind",    color: "#06b6d4" },
+      { name: "NextAuth",    color: "#000000" },
+    ],
+    features: [
+      "Punto de Venta (POS) de alto rendimiento",
+      "Gestión completa de NCF (Fiscal, Final, etc.)",
+      "Control de inventario con alertas de stock",
+      "Roles de Administrador y Vendedor",
+      "Reportes de ventas y exportación CSV",
+    ],
+    demoUrl: "https://facrmacia.vercel.app",
+    adminUrl: "https://facrmacia.vercel.app/login",
+    mainLang: "Next.js + Supabase",
+  },
   },
 ];
 
