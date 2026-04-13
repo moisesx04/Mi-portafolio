@@ -186,7 +186,6 @@ const PROJECTS = [
     adminUrl: "https://facrmacia.vercel.app/login",
     mainLang: "Next.js + Supabase",
   },
-  },
 ];
 
 // ─────────────────────────────────────────────
