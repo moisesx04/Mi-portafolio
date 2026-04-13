@@ -114,8 +114,8 @@ const PROJECTS = [
       "Gestión de servicios con precios dinámicos",
       "Interfaz ultra-minimalista y responsive",
     ],
-    demoUrl: "https://moisesx04.github.io/sistema-de-lavado/",
-    adminUrl: "https://moisesx04.github.io/sistema-de-lavado/",
+    demoUrl: "https://sistema-de-lavado.vercel.app",
+    adminUrl: "https://sistema-de-lavado.vercel.app",
     mainLang: "React + TS",
   },
 ];
