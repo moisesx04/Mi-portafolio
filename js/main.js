@@ -67,8 +67,8 @@ const PROJECTS = [
     tech: [
       { name: "React",       color: "#61dafb" },
       { name: "TypeScript",  color: "#3178c6" },
+      { name: "Supabase",    color: "#3ecf8e" },
       { name: "Tailwind",    color: "#06b6d4" },
-      { name: "Vite",        color: "#646cff" },
       { name: "Lucide",      color: "#ff0055" },
     ],
     features: [
@@ -138,7 +138,7 @@ const PROJECTS = [
     tech: [
       { name: "React",       color: "#61dafb" },
       { name: "TypeScript",  color: "#3178c6" },
-      { name: "Vite",        color: "#646cff" },
+      { name: "Supabase",    color: "#3ecf8e" },
       { name: "Recharts",    color: "#00c9ff" },
       { name: "Framer Motion", color: "#ff0055" },
     ],
