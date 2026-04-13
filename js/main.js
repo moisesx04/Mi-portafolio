@@ -13,9 +13,9 @@ const PROJECTS = [
     title: "PureForm",
     subtitle: "Sistema de Gestión de Formularios",
     description:
-      "Una herramienta fácil de usar para crear y organizar formularios personalizados. " +
-      "Permite ver resultados en tiempo real con gráficas, organizar clientes y " +
-      "guardar toda la información de forma segura.",
+      "Una herramienta interactiva para la creación y organización de formularios personalizados. " +
+      "Permite visualizar la estructura de resultados con gráficas y " +
+      "gestionar la experiencia del usuario de forma intuitiva.",
     icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
              <rect x="3" y="3" width="18" height="18" rx="3"/>
@@ -52,10 +52,10 @@ const PROJECTS = [
     title: "Gensy CRM",
     subtitle: "Control CRM & Agenda Inmobiliaria",
     description:
-      "Plataforma avanzada para la gestión de bienes raíces. " +
-      "Integra un sistema de captación de leads mediante formularios " +
-      "multi-paso dinámicos y un dashboard administrativo para el " +
-      "seguimiento exhaustivo de clientes y propiedades.",
+      "Demostración técnica de flujo CRM para el sector bienes raíces. " +
+      "Cuenta con un proceso de captación mediante formularios multi-paso " +
+      "y una interfaz administrativa diseñada para la visualización de " +
+      "clientes y propiedades simuladas.",
     icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
@@ -72,11 +72,11 @@ const PROJECTS = [
       { name: "Lucide",      color: "#ff0055" },
     ],
     features: [
-      "Formulario público inteligente de 5 pasos",
-      "Panel administrativo para G A FRIAS Real Estate",
-      "Gestión de documentos, finanzas y empleo",
-      "Dashboard con analíticas en tiempo real",
-      "Seguridad y confidencialidad de datos (100%)",
+      "Simulación de flujo de trabajo inmobiliario",
+      "Interfaz de formulario público de 5 pasos",
+      "Dashboard administrativo para G A FRIAS",
+      "Estructura modular para documentos y finanzas",
+      "Optimizado para demostración de UI/UX funcional",
     ],
     demoUrl: "https://gensy-crm.vercel.app",
     adminUrl: "https://gensy-crm.vercel.app/login",
@@ -87,9 +87,9 @@ const PROJECTS = [
     title: "Sistema de Inventario",
     subtitle: "Control y Gestión de Productos",
     description:
-      "Un programa diseñado para llevar el control de productos en un negocio. " +
-      "Ayuda a saber cuánto hay en inventario, organizar proveedores y " +
-      "ver reportes claros sobre el movimiento de la mercancía.",
+      "Demostración de un sistema para el control de inventarios. " +
+      "Permite navegar por la gestión de disponibilidad, organización " +
+      "de proveedores y visualización de reportes de movimiento.",
     icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
              <line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/>
@@ -122,9 +122,9 @@ const PROJECTS = [
     title: "Sistema de Lavado Inteligente",
     subtitle: "Gestión Ejecutiva & Control de Nómina",
     description:
-      "Una plataforma de alto rendimiento para la gestión de car wash. " +
-      "Automatiza el cálculo de pagos por comisiones, genera tickets para WhatsApp " +
-      "y ofrece visualización de datos en tiempo real para decisiones estratégicas.",
+      "Prototipo funcional de alta fidelidad para la gestión de car wash. " +
+      "Muestra la automatización de cálculos de nómina, generación de " +
+      "tickets y visualización de datos operativos estratégicos.",
     icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
              <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-1.1 0-2 .9-2 2v4c0 .6.4 1 1 1h2"/>
@@ -158,9 +158,9 @@ const PROJECTS = [
     title: "FarmaSystem Pro",
     subtitle: "Sistema de Facturación & POS Farmacéutico",
     description:
-      "Plataforma profesional para la gestión de farmacias. " +
-      "Controla ventas, inventario, facturación con NCF y perfiles de usuario " +
-      "con un diseño premium orientado a la eficiencia operativa.",
+      "Demostración de plataforma profesional para farmacias. " +
+      "Muestra el flujo de ventas, gestión de inventario, facturación " +
+      "y control de perfiles con un diseño premium orientado a la eficiencia.",
     icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
              <path d="M10.5 22h3c.8 0 1.5-.7 1.5-1.5V15h5.5c.8 0 1.5-.7 1.5-1.5v-3c0-.8-.7-1.5-1.5-1.5H15V3.5c0-.8-.7-1.5-1.5-1.5h-3c-.8 0-1.5.7-1.5 1.5V9H3.5c-.8 0-1.5.7-1.5 1.5v3c0 .8.7 1.5 1.5 1.5H9v5.5c0 .8.7 1.5 1.5 1.5z"/>
