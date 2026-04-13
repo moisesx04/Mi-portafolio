@@ -255,8 +255,8 @@ function initParticles() {
           ctx.beginPath();
           ctx.moveTo(particles[i].x, particles[i].y);
           ctx.lineTo(particles[j].x, particles[j].y);
-          ctx.strokeStyle = `rgba(124,58,237,${0.15 * (1 - dist / 130)})`;
-          ctx.lineWidth = 0.8;
+          ctx.strokeStyle = `rgba(99,102,241,${0.15 * (1 - dist / 130)})`;
+          ctx.lineWidth = 1;
           ctx.stroke();
         }
       }
@@ -284,7 +284,7 @@ function initParticles() {
 
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(168,85,247,${p.a})`;
+        ctx.fillStyle = `rgba(139,92,246,${p.a * 0.8})`;
         ctx.fill();
 
         p.x += p.vx;
